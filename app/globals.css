@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-y: scroll;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.container {
+  @apply bg-white text-gray-medium rounded-xl py-4 px-6 font-inter;
+}
+.container-header {
+  @apply flex justify-between items-center pb-4 mb-4 border-b border-gray-light;
+}
+
+.heading {
+  @apply font-bold text-2xl tracking-tight text-gray-dark;
+}
+
+.sub-heading {
+  @apply text-xs text-text-light;
+}
+
+.button {
+  @apply px-4 py-2 border border-primary bg-primary text-sm text-white rounded-full hover:bg-opacity-80 transition disabled:opacity-50 disabled:pointer-events-none;
+}
+
+.button-ouline {
+  @apply px-4 py-2 border border-primary bg-primary bg-opacity-0 text-sm text-primary rounded-full hover:bg-opacity-10 transition;
+}
+
+table tr {
+  @apply border-b border-gray-light;
+}
+
+table th {
+  @apply text-gray-dark
+}
+
+table td,
+table th {
+  @apply py-4 text-left;
+}
+
+ table tr:last-of-type {
+  @apply border-none
+}
+
+label {
+  @apply block w-full
+}
+
+input,
+select {
+  @apply w-full border border-gray-medium border-opacity-20 rounded-lg p-2 focus:outline-primary
+}
+
+.label {
+  @apply px-2 py-1 text-xs rounded-md text-white bg-success
+}
+
+.label-warning {
+  @apply px-2 py-1 text-xs rounded-md text-white bg-warning
+}
