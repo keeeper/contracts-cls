@@ -11,6 +11,7 @@ const getInputType = (name) => {
           type = 'select';
           break;
       case 'startDate':
+      case 'cancelationDate':
       case 'cancellationDate':
           type = 'date'
           break;

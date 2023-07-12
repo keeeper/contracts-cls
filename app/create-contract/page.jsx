@@ -63,10 +63,9 @@ const CreateContract = () => {
       ...formData,
     }
     
-    if (formData.startDate) preparedFormData.startData = new Date(formData.startDate).toISOString();
+    if (formData.startDate) preparedFormData.startDate = new Date(formData.startDate).toISOString();
     if (formData.cancellationDate) preparedFormData.cancelationDate = new Date(formData.cancellationDate).toISOString();
     preparedFormData.category = currentCategory.id;
-    
     setIsLoading(true);
     try {
       const response = await fetch(`${apiUrl}/${endpoints.contracts}`, {

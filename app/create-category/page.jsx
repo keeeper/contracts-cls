@@ -19,7 +19,7 @@ const CreateCategory = () => {
     status: false,
     email: false,
     startDate: false,
-    cancellationDate: false
+    cancelationDate: false
   });
 
   const onCheckboxChangeHandler = (e) => {
