@@ -29,7 +29,6 @@ const Contract = ({params}) => {
     } catch (error) {
         toast.error('Error occurred');
         console.error('Error occurred:', error);
-    } finally {
     }
   }
 

@@ -10,8 +10,6 @@ import getInputType from '@/utils/getInputType';
 import getRegularFromCamelCase from '@/utils/getRegularFromCamelCase';
 import { apiUrl, endpoints } from '@/constants/api';
 
-
-
 const CreateContract = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [currentCategory, setCurrentCategory] = useState('');

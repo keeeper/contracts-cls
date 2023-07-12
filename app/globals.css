@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  @apply bg-white text-gray-medium rounded-xl py-4 px-6 font-inter;
+  @apply bg-white text-gray-medium rounded-xl py-4 px-6 font-inter shadow-lg shadow-indigo-200/30;
 }
 .container-header {
   @apply flex justify-between items-center pb-4 mb-4 border-b border-gray-light;
