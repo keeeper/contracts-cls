@@ -18,7 +18,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Possible improvements
 - Javascript -> Typescript
-- Ability to edit contracts
+- Add ability to edit contracts
 - Form validation
 - Loading 'Skeletons' during fetching data
 - Responsive
@@ -26,3 +26,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Check if content fits areas, without overlapping
 - Extra indication for contracts that expire soon
 - Refactor fetching
+- Use store management (ex: Redux) to avoid extra fetching
+- Add ability to sort contracts on homepage (by expiration date, status, etc.)
