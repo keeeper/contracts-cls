@@ -8,12 +8,20 @@ Nextjs app that allows to Create List and Show contracts based on templates (cat
 4. Click 'Details' to get full information about contract.
 
 
-## First, run the development server
+## First, run the development server, tests
 ```bash
 npm i
 npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+#### Running unit tests
+
+```
+npm run test
+```
+
+
 
 
 ## Possible improvements
