@@ -37,8 +37,8 @@ export default function Home() {
             <h1 className='heading'>Contracts</h1>
             <p className='sub-heading'>that have been already added</p>
           </div>
-          <InternalLink name='Create category' url='/create-category' classNames='button-ouline mr-2' />
-          <InternalLink name='Create contract' url='/create-contract' classNames='button' />
+          <InternalLink name='Create category' url='/create-category' classNames='button-ouline mr-2' testId='button-create-category' />
+          <InternalLink name='Create contract' url='/create-contract' classNames='button' testId='button-create-contract' />
         </div>
         <table className='w-full'>
           <tbody>

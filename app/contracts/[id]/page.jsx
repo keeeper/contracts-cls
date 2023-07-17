@@ -63,7 +63,7 @@ const Contract = ({params}) => {
   return (
     <section className='container'>
       <div className='container-header'>
-        <InternalLink url='/' iconName='home' classNames='px-2 py-2 border border-primary rounded-full hover:bg-primary-light transition'/>
+        <InternalLink url='/' iconName='home' testId='button-home' classNames='px-2 py-2 border border-primary rounded-full hover:bg-primary-light transition'/>
         <div className='flex-1 ml-3'>
           <h1 className='heading'>Contract</h1>
           <p className='sub-heading'>full contract's information</p>

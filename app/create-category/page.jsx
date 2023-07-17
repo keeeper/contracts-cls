@@ -77,11 +77,11 @@ const CreateCategory = () => {
         </div>
       </div>
       <form onSubmit={onSubmitHandler}>
-        <FormElement label='Category name' isDisabled={isLoading} type='text' isRequired onChangeHandler={onInputChangeHandler} />
+        <FormElement testId='category-name-input' label='Category name' isDisabled={isLoading} type='text' isRequired onChangeHandler={onInputChangeHandler} />
         {Object.entries(selectedFields).map(([key, value])=> (
           <FormElement key={key} name={key} checked={value} isDisabled={isLoading} type='checkbox' label={getRegularFromCamelCase(key)} onChangeHandler={onCheckboxChangeHandler}/>
         ))}
-        <Button isDisabled={isLoading} type='submit' name='Save' />
+        <Button testId='button-save-category' isDisabled={isLoading} type='submit' name='Save' />
       </form>
       <ToastContainer autoClose={3000} hideProgressBar={true} />
     </section>
