@@ -28,17 +28,26 @@ npm run cypress
 
 
 
-
 ## Possible improvements
-- Javascript -> Typescript
-- Add ability to edit contracts
-- Form validation
-- Loading 'Skeletons' during fetching data
+
+#### Data organization
+- Filter contracts on homepage
+- Ability to edit contracts
+- Ability to sort contracts on homepage (by expiration date, status, etc.)
+- Search
+
+#### UX/UI
 - Responsive
-- Accessibility
-- Check if content fits areas, without overlapping
+- Loading 'Skeletons' during fetching data
 - Extra indication for contracts that expire soon
+- Check if content fits areas, without overlapping
+- Check if category with same fields already exists, if yes - propose use previously created category
+- Form validation
+
+#### Code
 - Refactor fetching
-- Use store management (ex: Redux) to avoid extra fetching
-- Add ability to sort contracts on homepage (by expiration date, status, etc.)
-- Add more tests
+- Javascript -> Typescript
+- Use store management (ex: Redux) to avoid extra fetching if only React is used (without NextJs)
+- More tests
+
+#### Accessibility
