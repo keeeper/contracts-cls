@@ -44,7 +44,12 @@ npm run cypress
 - Check if category with same fields already exists, if yes - propose use previously created category
 - Form validation
 
+#### Security
+- Check field names for renaming before submitting form on "Create category" page
+- Prevent potential XSS attacks (ex: with dompurify)
+
 #### Code
+
 - Refactor fetching
 - Javascript -> Typescript
 - Use store management (ex: Redux) to avoid extra fetching if only React is used (without NextJs)
